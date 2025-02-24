@@ -13,7 +13,7 @@
   --main-color: #f691a2;
 }
 html {
-  font-size: 60%;
+  font-size: 50%;
   overflow-x: hidden;
 }
 
@@ -523,15 +523,7 @@ section{
   display: grid;
   grid-template-columns: repeat(4, minmax(300px, 1fr));
   gap: 5rem;
-  padding: 0 10rem;
-  
-
-  
-  /* display: flex; 
-  justify-content: center; 
-  align-items: stretch; 
-  gap: 5rem;  */
-  
+  padding: 0 10rem;    
   flex-wrap: wrap;
 }
 
