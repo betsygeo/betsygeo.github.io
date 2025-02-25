@@ -531,7 +531,7 @@ section{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 5rem;
   padding: 0 10rem;    
-  flex-wrap: wrap;
+  
 }
 
 .interest-box {
@@ -540,7 +540,7 @@ section{
   align-items: center;
   background-color: var(--main-color);
   height: 400px;
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 3rem;
   padding: 2rem;
   cursor: pointer;
