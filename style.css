@@ -518,17 +518,8 @@ section{
 }
 
 .interest-container {
-/* 
-  display:flex;
-  flex-direction: row;
-  justify-content: center; 
-  
-  gap: 5rem; 
-  padding: 0 2rem; 
-  flex-wrap: wrap; */
-
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 5rem;
   padding: 0 10rem;    
   
